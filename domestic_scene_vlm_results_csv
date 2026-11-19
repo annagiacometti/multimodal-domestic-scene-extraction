@@ -1,0 +1,76 @@
+id_campione,caption_ground_truth,json_estratto_vlm
+0,A room with blue walls and a white sink and door.,"```json
+{
+  ""contesto_stanza"": ""bagno"",
+  ""oggetti_principali"": [
+    ""coperchio del vaso da bagno"",
+    ""candela"",
+    ""coppa"",
+    ""lavabo con rubinetto"",
+    ""portello""
+  ],
+  ""attivita_rilevata"": ""nessuna attività specifica"",
+  ""stato_ambiente"": ""ordinato"",
+  ""suggerimento_supporto"": ""Verificare se ci sono eventuali residui di sapone o altri detriti sul lavabo prima di usare il bagno.""
+}
+```"
+1,"A bathroom with a toilet, sink, and shower.","```json
+{
+  ""contesto_stanza"": ""bagno"",
+  ""oggetti_principali"": [
+    "" WC"",
+    "" lavandino"",
+    "" specchio"",
+    "" tenda"",
+    "" asciugamano""
+  ],
+  ""attivita_rilevata"": ""riposo o preparazione per il bagno"",
+  ""stato_ambiente"": ""ordinato"",
+  ""suggerimento_supporto"": ""Verificare che tutti gli accessori del bagno siano in ordine prima di usare il WC.""
+}
+```"
+2,"A long empty, minimal modern skylit home kitchen.","```json
+{
+  ""contesto_stanza"": ""cucina"",
+  ""oggetti_principali"": [
+    ""frigorifero"",
+    ""cucina"",
+    ""ovatta"",
+    ""lavastoviglie"",
+    ""cucina""
+  ],
+  ""attivita_rilevata"": ""la cucina è pronta per essere utilizzata"",
+  ""stato_ambiente"": ""ordinato"",
+  ""suggerimento_supporto"": ""verificare se ci sono accessori o utensili mancanti prima di usare la cucina""
+}
+```"
+3,A bathroom sink with toiletries on the counter.,"```json
+{
+  ""contesto_stanza"": ""bagno"",
+  ""oggetti_principali"": [
+    ""cassettiera nera"",
+    ""cucchiaino"",
+    ""cucchiaino"",
+    ""cucchiaino"",
+    ""cucchiaino""
+  ],
+  ""attivita_rilevata"": ""riposo o preparazione per il bagno"",
+  ""stato_ambiente"": ""disordinato"",
+  ""suggerimento_supporto"": ""Riordinare la superficie del lavandino per mantenere un ambiente pulito e organizzato.""
+}
+```"
+4,A gas stove next to a stainless steel kitchen sink and countertop.,"```json
+{
+  ""contesto_stanza"": ""cucina"",
+  ""oggetti_principali"": [
+    ""cucina"",
+    ""cucina"",
+    ""cucina"",
+    ""cucina"",
+    ""cucina""
+  ],
+  ""attivita_rilevata"": ""riordinare la cucina"",
+  ""stato_ambiente"": ""ordinato"",
+  ""suggerimento_supporto"": ""Riordina la cucina per mantenere un ambiente pulito e organizzato.""
+}
+```"
