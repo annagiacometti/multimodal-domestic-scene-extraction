@@ -1,0 +1,750 @@
+id_campione,caption_ground_truth,json_estratto_vlm
+0,A room with blue walls and a white sink and door.,"```json
+{
+  ""contesto_stanza"": ""bagno"",
+  ""oggetti_principali"": [
+    ""coperchio del vaso da bagno"",
+    ""candela"",
+    ""coppa"",
+    ""lavabo con rubinetto"",
+    ""portello""
+  ],
+  ""attivita_rilevata"": ""nessuna attività specifica"",
+  ""stato_ambiente"": ""ordinato"",
+  ""suggerimento_supporto"": ""Verificare se ci sono eventuali residui di sapone o altri detriti sul lavabo prima di usare il bagno.""
+}
+```"
+1,"A bathroom with a toilet, sink, and shower.","```json
+{
+  ""contesto_stanza"": ""bagno"",
+  ""oggetti_principali"": [
+    "" WC"",
+    "" lavandino"",
+    "" specchio"",
+    "" tenda"",
+    "" asciugamano""
+  ],
+  ""attivita_rilevata"": ""riposo o preparazione per il bagno"",
+  ""stato_ambiente"": ""ordinato"",
+  ""suggerimento_supporto"": ""Verificare che tutti gli accessori del bagno siano in ordine prima di usare il WC.""
+}
+```"
+2,"A long empty, minimal modern skylit home kitchen.","```json
+{
+  ""contesto_stanza"": ""cucina"",
+  ""oggetti_principali"": [
+    ""frigorifero"",
+    ""cucina"",
+    ""ovatta"",
+    ""lavastoviglie"",
+    ""cucina""
+  ],
+  ""attivita_rilevata"": ""la cucina è pronta per essere utilizzata"",
+  ""stato_ambiente"": ""ordinato"",
+  ""suggerimento_supporto"": ""verificare se ci sono accessori o utensili mancanti prima di usare la cucina""
+}
+```"
+3,A bathroom sink with toiletries on the counter.,"```json
+{
+  ""contesto_stanza"": ""bagno"",
+  ""oggetti_principali"": [
+    ""cassettiera nera"",
+    ""cucchiaino"",
+    ""cucchiaino"",
+    ""cucchiaino"",
+    ""cucchiaino""
+  ],
+  ""attivita_rilevata"": ""riposo o preparazione per il bagno"",
+  ""stato_ambiente"": ""disordinato"",
+  ""suggerimento_supporto"": ""Riordinare la superficie del lavandino per mantenere un ambiente pulito e organizzato.""
+}
+```"
+4,A gas stove next to a stainless steel kitchen sink and countertop.,"```json
+{
+  ""contesto_stanza"": ""cucina"",
+  ""oggetti_principali"": [
+    ""cucina"",
+    ""cucina"",
+    ""cucina"",
+    ""cucina"",
+    ""cucina""
+  ],
+  ""attivita_rilevata"": ""riordinare la cucina"",
+  ""stato_ambiente"": ""ordinato"",
+  ""suggerimento_supporto"": ""Riordina la cucina per mantenere un ambiente pulito e organizzato.""
+}
+```"
+5,A man in a wheelchair and another sitting on a bench that is overlooking the water.,"```json
+{
+  ""contesto_stanza"": ""altri"",
+  ""oggetti_principali"": [
+    ""bench"",
+    ""person"",
+    ""wheelchair"",
+    ""signboard"",
+    ""beach""
+  ],
+  ""attivita_rilevata"": ""due persone sedute su una panchina che guarda il mare"",
+  ""stato_ambiente"": ""ordinato"",
+  ""suggerimento_supporto"": ""Considerare di portare un cappotto o un impermeabile per proteggersi dal vento e dalla pioggia""
+}
+```"
+6,A cute kitten is sitting in a dish on a table.,"```json
+{
+  ""contesto_stanza"": ""altra"",
+  ""oggetti_principali"": [
+    ""gatto bianco e nero seduto su un piatto rotondo"",
+    ""libri sparsi sul tavolo"",
+    ""un libro con copertina rosa"",
+    ""un foglio di carta verde con testo"",
+    ""un oggetto nero che sembra essere parte di un cuscino""
+  ],
+  ""attivita_rilevata"": ""un gatto seduto su un piatto rotondo tra libri e altri oggetti"",
+  ""stato_ambiente"": ""disordinato"",
+  ""suggerimento_supporto"": ""Riordini i libri e gli altri oggetti per mantenere l'ambiente ordinato.""
+}
+```"
+7,A bathroom with a sink and shower curtain with a map print.,"```json
+{
+  ""contesto_stanza"": ""bagno"",
+  ""oggetti_principali"": [
+    ""cassetto della toilette"",
+    ""lavabo con rubinetto"",
+    ""specchio con cornice"",
+    ""porta spazzola"",
+    ""cartello mappa""
+  ],
+  ""attivita_rilevata"": ""riposo o preparazione per il bagno"",
+  ""stato_ambiente"": ""ordinato"",
+  ""suggerimento_supporto"": ""Verifica che tutto sia pulito prima di usare il lavabo.""
+}
+```"
+8,The back door with a window in the kitchen.,"```json
+{
+  ""contesto_stanza"": ""cucina"",
+  ""oggetti_principali"": [
+    ""porta bianca con finestra a vetri colorati"",
+    ""cassetto della cucina"",
+    ""cucina con piano di lavoro"",
+    ""cassetto della cucina"",
+    ""cucina con piano di lavoro""
+  ],
+  ""attivita_rilevata"": ""pranzo"",
+  ""stato_ambiente"": ""ordinato"",
+  ""suggerimento_supporto"": ""Verifica se ci sono altri utensili da cucina che potrebbero essere necessari per la preparazione del pranzo.""
+}
+```"
+9,A picture of a man playing a violin in a kitchen.,"```json
+{
+  ""contesto_stanza"": ""cucina"",
+  ""oggetti_principali"": [
+    ""uomo che suona violino"",
+    ""cucina con frutta e verdura"",
+    ""cucina con frutta e verdura"",
+    ""cucina con frutta e verdura"",
+    ""cucina con frutta e verdura""
+  ],
+  ""attivita_rilevata"": ""un uomo sta suonando un violino in una cucina"",
+  ""stato_ambiente"": ""in uso"",
+  ""suggerimento_supporto"": ""Verifica se ci sono strumenti musicali o accessori da cucina disponibili per il suono del violino.""
+}
+```"
+10,A shot of an elderly man inside a kitchen.,"```json
+{
+  ""contesto_stanza"": ""cucina"",
+  ""oggetti_principali"": [
+    ""uomo con cappello"",
+    ""cucina con mobili in legno"",
+    ""cucina con mobili in legno"",
+    ""cucina con mobili in legno"",
+    ""cucina con mobili in legno""
+  ],
+  ""attivita_rilevata"": ""un uomo sta sorridendo in cucina"",
+  ""stato_ambiente"": ""ordinato"",
+  ""suggerimento_supporto"": ""Lasciare la cucina pulita e organizzata può aiutare a creare un ambiente più accogliente e confortevole.""
+}
+```"
+11,A pinewood and green modern themed kitchen area.,"```json
+{
+  ""contesto_stanza"": ""cucina"",
+  ""oggetti_principali"": [
+    ""cucina moderna con mobili verdi e bianchi"",
+    ""tavolo con sedie intorno"",
+    ""piano cottura con forno"",
+    ""piano cottura con forno"",
+    ""piano cottura con forno""
+  ],
+  ""attivita_rilevata"": ""pranzo o cena in preparazione"",
+  ""stato_ambiente"": ""ordinato e pulito"",
+  ""suggerimento_supporto"": ""Verificare che tutti gli utensili da cucina siano disponibili prima di iniziare la preparazione del pasto.""
+}
+```"
+12,A kitchen is shown with wooden cabinets and a wooden celling.,"```json
+{
+  ""contesto_stanza"": ""cucina"",
+  ""oggetti_principali"": [
+    ""cucina"",
+    ""cucina"",
+    ""cucina"",
+    ""cucina"",
+    ""cucina""
+  ],
+  ""attivita_rilevata"": ""la cucina è in uso"",
+  ""stato_ambiente"": ""ordinato"",
+  ""suggerimento_supporto"": ""verificare se ci sono accessori o utensili da cucina che potrebbero essere stati lasciati sul piano di lavoro""
+}
+```"
+13,An all white kitchen with an electric stovetop. ,"```json
+{
+  ""contesto_stanza"": ""cucina"",
+  ""oggetti_principali"": [
+    ""cucina"",
+    ""ovatta"",
+    ""cassettiera"",
+    ""cassetto"",
+    ""cucina""
+  ],
+  ""attivita_rilevata"": ""riposizionamento oggetti nella cucina"",
+  ""stato_ambiente"": ""ordinato"",
+  ""suggerimento_supporto"": ""Verifica che tutti gli oggetti siano sistemati correttamente prima di usare la cucina.""
+}
+```"
+14,The woman in the kitchen is holding a huge pan.,"```json
+{
+  ""contesto_stanza"": ""cucina"",
+  ""oggetti_principali"": [
+    ""cucina"",
+    ""cucina"",
+    ""cucina"",
+    ""cucina"",
+    ""cucina""
+  ],
+  ""attivita_rilevata"": ""una donna sta preparando cibo in cucina"",
+  ""stato_ambiente"": ""ordinato"",
+  ""suggerimento_supporto"": ""Verifica che tutti gli utensili da cucina siano in ordine prima di iniziare a preparare il pasto.""
+}
+```"
+15,A man standing in a kitchen while closing a cupboard door.,"```json
+{
+  ""contesto_stanza"": ""cucina"",
+  ""oggetti_principali"": [
+    ""cucina"",
+    ""casseruola"",
+    ""cassetta"",
+    ""polvere"",
+    ""cucina""
+  ],
+  ""attivita_rilevata"": ""un uomo sta in piedi in cucina, parlando o mostrando qualcosa"",
+  ""stato_ambiente"": ""disordinato"",
+  ""suggerimento_supporto"": ""Riordinare la cucina per organizzare meglio gli spazi e facilitare l'accesso ai materiali necessari.""
+}
+```"
+16,A photograph of a kitchen inside a house.,"```json
+{
+  ""contesto_stanza"": ""cucina"",
+  ""oggetti_principali"": [
+    ""frigorifero"",
+    ""cucina"",
+    ""lavastoviglie"",
+    ""cassetto"",
+    ""cucina""
+  ],
+  ""attivita_rilevata"": ""riordinare la cucina"",
+  ""stato_ambiente"": ""ordinato"",
+  ""suggerimento_supporto"": ""Verifica che tutti gli utensili siano stati rimossi dalla lavastoviglie prima di riordinare la cucina.""
+}
+```"
+17,A dual sink vanity with mirrors above the sinks.,"```json
+{
+  ""contesto_stanza"": ""bagno"",
+  ""oggetti_principali"": [
+    ""lavabo"",
+    ""specchio"",
+    ""asciugamano"",
+    ""cucchiaino"",
+    ""tappeto""
+  ],
+  ""attivita_rilevata"": ""riposo o preparazione per il bagno"",
+  ""stato_ambiente"": ""ordinato"",
+  ""suggerimento_supporto"": ""Verificare che tutti gli accessori del bagno siano in ordine prima di usare il servizio.""
+}
+```"
+18,"a counter with vegetables, knife and cutting board on it. ","```json
+{
+  ""contesto_stanza"": ""cucina"",
+  ""oggetti_principali"": [
+    ""salmon"",
+    ""aspargi"",
+    ""limoni"",
+    ""tagliere"",
+    ""coltello""
+  ],
+  ""attivita_rilevata"": ""preparazione di un pasto"",
+  ""stato_ambiente"": ""in uso"",
+  ""suggerimento_supporto"": ""Verificare che tutti gli ingredienti siano freschi prima di cuocere.""
+}
+```"
+19,A group of people preparing food in a kitchen.,"```json
+{
+  ""contesto_stanza"": ""cucina"",
+  ""oggetti_principali"": [
+    ""mani che tagliano verdure"",
+    ""gocce d'acqua sul tavolo"",
+    ""grembiuli bianchi"",
+    ""gessetti neri"",
+    ""tavoli di metallo""
+  ],
+  ""attivita_rilevata"": ""pratiche culinarie in un ambiente di cucina"",
+  ""stato_ambiente"": ""in uso"",
+  ""suggerimento_supporto"": ""Utilizzare un grembiule per mantenere le mani pulite durante la cottura.""
+}
+```"
+20,Fruit in a jar filled with liquid sitting on a wooden table.,"```json
+{
+  ""contesto_stanza"": ""cucina"",
+  ""oggetti_principali"": [
+    ""bottiglia di vetro"",
+    ""arance"",
+    ""limoni"",
+    ""frutta secca"",
+    ""acqua""
+  ],
+  ""attivita_rilevata"": ""preparazione di un succo di frutta"",
+  ""stato_ambiente"": ""ordinato"",
+  ""suggerimento_supporto"": ""Verificare la sicurezza alimentare prima di consumare il succo preparato.""
+}
+```"
+21,A small wooden table covered with delicious vegetables. ,"```json
+{
+  ""contesto_stanza"": ""cucina"",
+  ""oggetti_principali"": [
+    ""cucina"",
+    ""cucina"",
+    ""cucina"",
+    ""cucina"",
+    ""cucina""
+  ],
+  ""attivita_rilevata"": ""preparazione cibo"",
+  ""stato_ambiente"": ""in uso"",
+  ""suggerimento_supporto"": ""Verificare che tutti gli ingredienti siano puliti prima della cottura.""
+}
+```"
+22,Three young people in a kitchen pointing to a pizza.,"```json
+{
+  ""contesto_stanza"": ""cucina"",
+  ""oggetti_principali"": [
+    ""pizza con peperoni"",
+    ""cucina con fornelli e utensili"",
+    ""personaggi in piedi"",
+    ""lavoro in corso"",
+    ""apparecchiature da cucina""
+  ],
+  ""attivita_rilevata"": ""preparazione della pizza"",
+  ""stato_ambiente"": ""in uso"",
+  ""suggerimento_supporto"": ""Verifica che tutti gli ingredienti siano ben mescolati prima di cuocere la pizza.""
+}
+```"
+23,"A bathroom with double sinks, mirrors, toilet and towel racks.","```json
+{
+  ""contesto_stanza"": ""bagno"",
+  ""oggetti_principali"": [
+    ""lavabo"",
+    ""specchio"",
+    ""candela"",
+    ""toilette"",
+    ""coperchio""
+  ],
+  ""attivita_rilevata"": ""nessuna attività specifica"",
+  ""stato_ambiente"": ""ordinato"",
+  ""suggerimento_supporto"": ""Verificare che tutti gli accessori del bagno siano in ordine prima di usare il servizio.""
+}
+```"
+24,An orange reddish rose in a vase filled with water on top of a table.,"```json
+{
+  ""contesto_stanza"": ""altra"",
+  ""oggetti_principali"": [
+    ""vaso di vetro"",
+    ""fiori gialli"",
+    ""tavolo con tovaglia colorata"",
+    ""parete beige""
+  ],
+  ""attivita_rilevata"": ""decorazione domestica con fiori gialli in un vaso di vetro su un tavolo con tovaglia colorata."",
+  ""stato_ambiente"": ""ordinato"",
+  ""suggerimento_supporto"": ""Considerare di aggiungere altri elementi decorativi come piante o quadri per rendere l'ambiente ancora più accogliente.""
+}
+```"
+25,A black trash bag in a restroom next to a sink.,"```json
+{
+  ""contesto_stanza"": ""bagno"",
+  ""oggetti_principali"": [
+    ""cassetta delle rifiuti"",
+    ""cassetta delle rifiuti"",
+    ""cassetta delle rifiuti"",
+    ""cassetta delle rifiuti"",
+    ""cassetta delle rifiuti""
+  ],
+  ""attivita_rilevata"": ""riempimento della cassetta delle rifiuti"",
+  ""stato_ambiente"": ""disordinato"",
+  ""suggerimento_supporto"": ""Verifica che la cassetta delle rifiuti sia piena prima di riempirla completamente per evitare problemi di scarico.""
+}
+```"
+26,A clean kitchen with the windows white and open.,"```json
+{
+  ""contesto_stanza"": ""cucina"",
+  ""oggetti_principali"": [
+    ""cucina"",
+    ""frigorifero"",
+    ""lavastoviglie"",
+    ""cassetti"",
+    ""cucina""
+  ],
+  ""attivita_rilevata"": ""nessuna attività specifica"",
+  ""stato_ambiente"": ""ordinato"",
+  ""suggerimento_supporto"": ""Verifica che tutti gli apparecchi elettrici siano spenti prima di lasciare la cucina.""
+}
+```"
+27,A yellow stripped cat sitting in a bathroom sink.,"```json
+{
+  ""contesto_stanza"": ""bagno"",
+  ""oggetti_principali"": [
+    ""gatto arancione"",
+    ""coperchio del lavandino"",
+    ""doccia"",
+    ""rubinetto"",
+    ""barattolo di sapone""
+  ],
+  ""attivita_rilevata"": ""gatto seduto sul lavandino"",
+  ""stato_ambiente"": ""in uso"",
+  ""suggerimento_supporto"": ""Verificare che il gatto non si sforzi troppo per raggiungere qualcosa nel lavandino.""
+}
+```"
+28,A cafeteria type kitchen that is not in use.,"```json
+{
+  ""contesto_stanza"": ""cucina"",
+  ""oggetti_principali"": [
+    ""cucina industriale"",
+    ""lavastoviglie"",
+    ""forno"",
+    ""cassonetto per rifiuti"",
+    ""porta finestra""
+  ],
+  ""attivita_rilevata"": ""prima di pulire la cucina"",
+  ""stato_ambiente"": ""in uso"",
+  ""suggerimento_supporto"": ""Verifica che tutti gli utensili siano stati rimossi dalla cucina prima di iniziare a pulirla.""
+}
+```"
+29,A glass bowl filled with oranges on a table.,"```json
+{
+  ""contesto_stanza"": ""cucina"",
+  ""oggetti_principali"": [
+    ""banane"",
+    ""arance"",
+    ""ciotola di vetro"",
+    ""cucina"",
+    ""cucina""
+  ],
+  ""attivita_rilevata"": ""preparazione o servizio di frutta"",
+  ""stato_ambiente"": ""ordinato"",
+  ""suggerimento_supporto"": ""Sistemare le arance in modo che non si toccino per mantenere la freschezza.""
+}
+```"
+30,An old victorian style bed frame in a bedroom.,"```json
+{
+  ""contesto_stanza"": ""camera da letto"",
+  ""oggetti_principali"": [
+    ""culla"",
+    ""letto"",
+    ""tappeto"",
+    ""culla"",
+    ""lampada""
+  ],
+  ""attivita_rilevata"": ""camera da letto in ordine"",
+  ""stato_ambiente"": ""ordinato"",
+  ""suggerimento_supporto"": ""Verificare che la culla sia ben posizionata e pulita prima di usare il letto.""
+}
+```"
+31,A young child stands in the kitchen with an adult.,"```json
+{
+  ""contesto_stanza"": ""cucina"",
+  ""oggetti_principali"": [
+    ""televisore giocattolo"",
+    ""bambina in maglietta rosa"",
+    ""bambino in piedi vicino alla cucina"",
+    ""cucina con toppe colorate"",
+    ""bambino in piedi vicino alla cucina""
+  ],
+  ""attivita_rilevata"": ""un bambino sta guardando un televisore giocattolo in cucina"",
+  ""stato_ambiente"": ""in uso"",
+  ""suggerimento_supporto"": ""assicurarsi che il bambino non tocchi mai gli elementi del tavolo o della cucina durante le attività di gioco.""
+}
+```"
+32,A man and a woman cook in the kitchen.,"```json
+{
+  ""contesto_stanza"": ""cucina"",
+  ""oggetti_principali"": [
+    ""cucina"",
+    ""cucina"",
+    ""cucina"",
+    ""cucina"",
+    ""cucina""
+  ],
+  ""attivita_rilevata"": ""un uomo e una donna stanno preparando cibo in cucina"",
+  ""stato_ambiente"": ""in uso"",
+  ""suggerimento_supporto"": ""Verificare che tutti gli utensili da cucina siano in ordine prima di iniziare la preparazione del pasto.""
+}
+```"
+33,A person in a kitchen looking at the oven.,"```json
+{
+  ""contesto_stanza"": ""cucina"",
+  ""oggetti_principali"": [
+    ""cucina"",
+    ""ovatta"",
+    ""cucina"",
+    ""cucina"",
+    ""cucina""
+  ],
+  ""attivita_rilevata"": ""una persona sta preparando la cena"",
+  ""stato_ambiente"": ""ordinato"",
+  ""suggerimento_supporto"": ""Verifica che tutti gli utensili da cucina siano disponibili prima di iniziare a preparare la cena.""
+}
+```"
+34,A toddler celebrates his birthday with a cupcake.,"```json
+{
+  ""contesto_stanza"": ""soggiorno"",
+  ""oggetti_principali"": [
+    ""bambino"",
+    ""torta"",
+    ""candela"",
+    ""tazza"",
+    ""cucchiaio""
+  ],
+  ""attivita_rilevata"": ""un bambino sta guardando una torta con una candela accesa su una tavola di legno."",
+  ""stato_ambiente"": ""in uso"",
+  ""suggerimento_supporto"": ""Lasciare il cucchiaio vicino alla torta per evitare che il bambino lo inghiotti accidentalmente.""
+}
+```"
+35,Fruit and vegetables are hanging in a metal basket.,"```json
+{
+  ""contesto_stanza"": ""cucina"",
+  ""oggetti_principali"": [
+    ""candela"",
+    ""candela"",
+    ""candela"",
+    ""candela"",
+    ""candela""
+  ],
+  ""attivita_rilevata"": ""riposizionamento candele su un supporto a tre piani"",
+  ""stato_ambiente"": ""ordinato"",
+  ""suggerimento_supporto"": ""Verificare che tutte le candele siano ben accese prima di posizionarle su un supporto a tre piani per evitare rischi di incendio.""
+}
+```"
+36,The kitchen has many grill with pots hanging all around.,"```json
+{
+  ""contesto_stanza"": ""cucina"",
+  ""oggetti_principali"": [
+    ""cucine"",
+    ""piani cottura"",
+    ""cucina"",
+    ""cucina"",
+    ""cucina""
+  ],
+  ""attivita_rilevata"": ""riposizionamento di utensili da cucina"",
+  ""stato_ambiente"": ""disordinato"",
+  ""suggerimento_supporto"": ""Riordina le cucine e i piani cottura per mantenere l'ordine e la sicurezza durante la cottura.""
+}
+```"
+37,A stoic looking cat sits in a green bowl.,"```json
+{
+  ""contesto_stanza"": ""cucina"",
+  ""oggetti_principali"": [
+    ""gatto nero e bianco seduto in un ciotola verde"",
+    ""scatola di minerali per pesci"",
+    ""scatola di minerali per pesci"",
+    ""scatola di minerali per pesci"",
+    ""scatola di minerali per pesci""
+  ],
+  ""attivita_rilevata"": ""un gatto seduto in un ciotola verde in una cucina"",
+  ""stato_ambiente"": ""in uso"",
+  ""suggerimento_supporto"": ""Verificare che il gatto non si siano avvicinato a alimenti non sicuri per i pesci.""
+}
+```"
+38,An office with a leather couch surrounded by books.,"```json
+{
+  ""contesto_stanza"": ""soggiorno"",
+  ""oggetti_principali"": [
+    ""couch"",
+    ""tavolino da caffè"",
+    ""libri"",
+    ""porta"",
+    ""fiori""
+  ],
+  ""attivita_rilevata"": ""riposo o lettoria"",
+  ""stato_ambiente"": ""ordinato"",
+  ""suggerimento_supporto"": ""Pulire la polvere dai libri e dalle superfici mobili per mantenere l'ambiente pulito e ordinato.""
+}
+```"
+39,An empty kitchen filled with dishes and appliances.,"```json
+{
+  ""contesto_stanza"": ""cucina"",
+  ""oggetti_principali"": [
+    ""frigorifero"",
+    ""lavastoviglie"",
+    ""cucina"",
+    ""tavolo"",
+    ""casa""
+  ],
+  ""attivita_rilevata"": ""riposo o attività domestica"",
+  ""stato_ambiente"": ""ordinato"",
+  ""suggerimento_supporto"": ""Verificare se ci sono oggetti da pulire prima di uscire dalla cucina.""
+}
+```"
+40,An oven in a kitchen with a stove on top in between counter tops.,"```json
+{
+  ""contesto_stanza"": ""cucina"",
+  ""oggetti_principali"": [
+    ""ovendoletto"",
+    ""cucina"",
+    ""cucina"",
+    ""cucina"",
+    ""cucina""
+  ],
+  ""attivita_rilevata"": ""riparazione o manutenzione della cucina"",
+  ""stato_ambiente"": ""in uso"",
+  ""suggerimento_supporto"": ""Verifica che tutti gli elementi della cucina siano spenti prima di iniziare qualsiasi manutenzione.""
+}
+```"
+41,A bathroom sink and towels hanging on the door.,"```json
+{
+  ""contesto_stanza"": ""bagno"",
+  ""oggetti_principali"": [
+    ""asciugamano rosso appeso alla porta"",
+    ""lavandino bianco con accessori"",
+    ""specchio sopra il lavandino"",
+    ""cassetto aperto con spazzolino da denti e altri oggetti"",
+    ""cassetto aperto con spazzolino da denti e altri oggetti""
+  ],
+  ""attivita_rilevata"": ""lavare le mani"",
+  ""stato_ambiente"": ""ordinato"",
+  ""suggerimento_supporto"": ""Verificare che tutti gli accessori necessari siano facilmente accessibili per evitare di dover cercare troppo.""
+}
+```"
+42,A white sink sitting underneath a round mirror.,"```json
+{
+  ""contesto_stanza"": ""bagno"",
+  ""oggetti_principali"": [
+    ""specchio circolare"",
+    ""cassettiera"",
+    ""cassettiera con porte chiuse"",
+    ""cassettiera con porte aperte"",
+    ""cassettiera con porte chiuse""
+  ],
+  ""attivita_rilevata"": ""nessuna attività specifica"",
+  ""stato_ambiente"": ""ordinato"",
+  ""suggerimento_supporto"": ""Verifica se ci sono eventuali problemi di illuminazione o manutenzione necessaria nel bagno.""
+}
+```"
+43,A bathroom with a large bathtub and sink under a large mirror.,"```json
+{
+  ""contesto_stanza"": ""bagno"",
+  ""oggetti_principali"": [
+    ""vasca da bagno"",
+    ""lavabo"",
+    ""specchio"",
+    ""cucina"",
+    ""tappeto""
+  ],
+  ""attivita_rilevata"": ""nessuna attività specifica"",
+  ""stato_ambiente"": ""ordinato"",
+  ""suggerimento_supporto"": ""Verificare se ci sono eventuali detriti o residui che potrebbero essere rimossi per mantenere la stanza pulita.""
+}
+```"
+44,An old floor standing tv next to a leather couch.,"```json
+{
+  ""contesto_stanza"": ""soggiorno"",
+  ""oggetti_principali"": [
+    ""televisione"",
+    ""couch"",
+    ""lampada da lettura"",
+    ""tavolino da salotto"",
+    ""fotografie""
+  ],
+  ""attivita_rilevata"": ""soggiorno abbandonato con attrezzature per la casa"",
+  ""stato_ambiente"": ""disordinato"",
+  ""suggerimento_supporto"": ""Riordina il soggiorno, pulisca la televisione e sistemare le fotografie per creare un ambiente più ordinato.""
+}
+```"
+45,A white kitchen with marble countertops and stone floors.,"```json
+{
+  ""contesto_stanza"": ""cucina"",
+  ""oggetti_principali"": [
+    ""lavastoviglie"",
+    ""cucina"",
+    ""toaster"",
+    ""cassettiera"",
+    ""cucina""
+  ],
+  ""attivita_rilevata"": ""riordinare la cucina"",
+  ""stato_ambiente"": ""ordinato"",
+  ""suggerimento_supporto"": ""Riordina la cucina per mantenere un ambiente pulito e organizzato.""
+}
+```"
+46,A bathroom with a vanity mirror toilette and kitchen sink next to a shower.,"```json
+{
+  ""contesto_stanza"": ""bagno"",
+  ""oggetti_principali"": [
+    ""tazza"",
+    ""vaso"",
+    ""specchio"",
+    ""cabinetto"",
+    ""lavabo""
+  ],
+  ""attivita_rilevata"": ""riposo o preparazione per il bagno"",
+  ""stato_ambiente"": ""ordinato"",
+  ""suggerimento_supporto"": ""Verificare che tutti gli accessori del bagno siano in ordine prima di usare il lavabo.""
+}
+```"
+47,A little girl is mixing in a  kitchen bowl while standing on a chair.,"```json
+{
+  ""contesto_stanza"": ""cucina"",
+  ""oggetti_principali"": [
+    ""bambino in piedi su un piccolo sgabello giallo"",
+    ""vaso rosso sul piano di lavoro della cucina"",
+    ""vaso rosso sul piano di lavoro della cucina"",
+    ""vaso rosso sul piano di lavoro della cucina"",
+    ""vaso rosso sul piano di lavoro della cucina""
+  ],
+  ""attivita_rilevata"": ""un bambino sta cercando di raggiungere qualcosa sul piano di lavoro della cucina"",
+  ""stato_ambiente"": ""in uso"",
+  ""suggerimento_supporto"": ""Lasciare il bambino in un luogo sicuro e tranquillo mentre si prepara la cena per evitare incidenti""
+}
+```"
+48,A living room with a large tv and pictures all around.,"```json
+{
+  ""contesto_stanza"": ""soggiorno"",
+  ""oggetti_principali"": [
+    ""televisione"",
+    ""coppia di televisori"",
+    ""pavimento in legno"",
+    ""pittura su tela"",
+    ""coppia di divani""
+  ],
+  ""attivita_rilevata"": ""soggiorno abitato e decorato"",
+  ""stato_ambiente"": ""ordinato"",
+  ""suggerimento_supporto"": ""Considerare l'acquisto di un nuovo divano per aggiungere comfort e design alla stanza.""
+}
+```"
+49,A bathroom with a sink and a toilet. ,"```json
+{
+  ""contesto_stanza"": ""bagno"",
+  ""oggetti_principali"": [
+    ""cassetto"",
+    ""lavabo"",
+    "" WC"",
+    ""carta igienica"",
+    ""portello""
+  ],
+  ""attivita_rilevata"": ""nessuna attività specifica"",
+  ""stato_ambiente"": ""ordinato"",
+  ""suggerimento_supporto"": ""Verifica che il cassetto sia chiuso per evitare che la carta igienica si sposti durante l'uso del WC.""
+}
+```"
